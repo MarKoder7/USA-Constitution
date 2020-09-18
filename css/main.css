@@ -1,5 +1,5 @@
 body {
-    
+
     margin-bottom: 100px;
     /* background-color: (#d66b72); */
     background: rgba(38, 39, 12, 0.99);
@@ -11,17 +11,6 @@ body {
     background: linear-gradient(to right, rgba(38, 39, 12, 0.99) 0%, rgba(82, 83, 34, 1) 32%, rgba(103, 103, 45, 1) 47%);
     filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#26270c', endColorstr='#67672d', GradientType=1)
 }
-
-.main {
-    display: flex;
-    justify-content: center;
-    align-content: center;
-}
-
-/* .article {
-  position: relative;
-
-} */
 
 .collapsible {
     margin-left: 20%;

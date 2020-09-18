@@ -19,21 +19,24 @@
 // });
 // });
 
-document.addEventListener("DOMContentLoaded", function(){
-    
-    var coll = document.querySelectorAll(".collapsible");
-    var i;
-    
-    for (i = 0; i < coll.length; i++) {
-      coll[i].addEventListener("click", function() {
-        this.classList.toggle("active");
-        var section = this.nextElementSibling;
-        if (section.style.display === "block") {
-          section.style.display = "none";
-        } else {
-          section.style.display = "block";
-        }
-      });
-    }
-})
+document.addEventListener("DOMContentLoaded", function () {
 
+  var collapse = document.querySelectorAll(".collapsible");
+
+  for (var i = 0; i < collapse.length; i++) {
+    collapse[i].addEventListener("click", function () {
+      this.classList.toggle("active");
+      // document.querySelectorAll('.section').forEach(function (otherDiv) {
+      //   otherDiv.style.display = 'none'
+      // })
+
+      var section = this.nextElementSibling;
+      if (section.style.display === "block") {
+        section.style.display = "none";
+      } else {
+        section.style.display = "block";
+      }
+
+    });
+  }
+})

@@ -1,7 +1,6 @@
 body {
-    margin-top: 20px;
+    
     margin-bottom: 100px;
-    background-color: black;
     /* background-color: (#d66b72); */
     background: rgba(38, 39, 12, 0.99);
     background: -moz-linear-gradient(left, rgba(38, 39, 12, 0.99) 0%, rgba(82, 83, 34, 1) 32%, rgba(103, 103, 45, 1) 47%);
@@ -13,43 +12,28 @@ body {
     filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#26270c', endColorstr='#67672d', GradientType=1)
 }
 
-#main {
-    display: table-cell;
-    width: 100%;
-    /* grid-template-columns: auto; */
-    font-family: 'Noto Serif', serif bold;
-    /* font-size: 12pt; */
-    color: green;
+.main {
+    display: flex;
+    justify-content: center;
+    align-content: center;
 }
 
-.article {
-    display: table-row;
-    width: 100%;
-    border: 1px solid rgba(124, 121, 121, 0.5);
-    grid-template-columns: 100px auto;
-    font-family: 'Open Sans', sans-serif;
-}
+/* .article {
+  position: relative;
 
-.sectiontitle {
-    color: rgb(8, 240, 19);
-    font-size: 20pt;
-    font-family: 'PT Serif Caption', serif;
-    /* background-color: rgb(66, 109, 31) */
-
-}
+} */
 
 .collapsible {
+    margin-left: 20%;
     padding: 25px;
-    width: 100%;
+    width: 60%;
     background-color: darkolivegreen;
     color: gold;
     cursor: pointer;
     text-align: center;
     outline: none;
-    border-radius: 20px;
+    border-radius: 30px;
     font-size: 35px;
-
-    position: sticky;
     margin-block-end: 20px;
     -webkit-box-shadow: 10px -10px 14px -1px rgba(0, 0, 0, 0.55);
     -moz-box-shadow: 10px -10px 14px -1px rgba(0, 0, 0, 0.55);
@@ -68,10 +52,10 @@ body {
     color: goldenrod;
     font-size: 18pt;
     font-family: 'PT Serif Caption', serif;
+    margin-bottom: 15px;
 }
 
 .header {
-    margin-top: 15px;
     border-radius: 4pt;
     padding: 110px;
     background: url('https://today.law.harvard.edu/wp-content/uploads/2018/07/CONSTITUTION_iStock-923052552_2500.jpg') top/cover no-repeat;

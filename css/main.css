@@ -1,0 +1,88 @@
+body {
+    margin-top: 20px;
+    margin-bottom: 100px;
+    background-color: black;
+    /* background-color: (#d66b72); */
+    background: rgba(38, 39, 12, 0.99);
+    background: -moz-linear-gradient(left, rgba(38, 39, 12, 0.99) 0%, rgba(82, 83, 34, 1) 32%, rgba(103, 103, 45, 1) 47%);
+    background: -webkit-gradient(left top, right top, color-stop(0%, rgba(38, 39, 12, 0.99)), color-stop(32%, rgba(82, 83, 34, 1)), color-stop(47%, rgba(103, 103, 45, 1)));
+    background: -webkit-linear-gradient(left, rgba(38, 39, 12, 0.99) 0%, rgba(82, 83, 34, 1) 32%, rgba(103, 103, 45, 1) 47%);
+    background: -o-linear-gradient(left, rgba(38, 39, 12, 0.99) 0%, rgba(82, 83, 34, 1) 32%, rgba(103, 103, 45, 1) 47%);
+    background: -ms-linear-gradient(left, rgba(38, 39, 12, 0.99) 0%, rgba(82, 83, 34, 1) 32%, rgba(103, 103, 45, 1) 47%);
+    background: linear-gradient(to right, rgba(38, 39, 12, 0.99) 0%, rgba(82, 83, 34, 1) 32%, rgba(103, 103, 45, 1) 47%);
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#26270c', endColorstr='#67672d', GradientType=1)
+}
+
+#main {
+    display: table-cell;
+    width: 100%;
+    /* grid-template-columns: auto; */
+    font-family: 'Noto Serif', serif bold;
+    /* font-size: 12pt; */
+    color: green;
+}
+
+.article {
+    display: table-row;
+    width: 100%;
+    border: 1px solid rgba(124, 121, 121, 0.5);
+    grid-template-columns: 100px auto;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.sectiontitle {
+    color: rgb(8, 240, 19);
+    font-size: 20pt;
+    font-family: 'PT Serif Caption', serif;
+    /* background-color: rgb(66, 109, 31) */
+
+}
+
+.collapsible {
+    padding: 25px;
+    width: 100%;
+    background-color: darkolivegreen;
+    color: gold;
+    cursor: pointer;
+    text-align: center;
+    outline: none;
+    border-radius: 20px;
+    font-size: 35px;
+
+    position: sticky;
+    margin-block-end: 20px;
+    -webkit-box-shadow: 10px -10px 14px -1px rgba(0, 0, 0, 0.55);
+    -moz-box-shadow: 10px -10px 14px -1px rgba(0, 0, 0, 0.55);
+    box-shadow: 10px -10px 14px -1px rgba(0, 0, 0, 0.55);
+}
+
+.active,
+.collapsible:hover {
+    background-color: rgb(104, 134, 22);
+}
+
+.section {
+    padding: 0 20px;
+    display: none;
+    overflow: hidden;
+    color: goldenrod;
+    font-size: 18pt;
+    font-family: 'PT Serif Caption', serif;
+}
+
+.header {
+    margin-top: 15px;
+    border-radius: 4pt;
+    padding: 110px;
+    background: url('https://today.law.harvard.edu/wp-content/uploads/2018/07/CONSTITUTION_iStock-923052552_2500.jpg') top/cover no-repeat;
+    background-size: 120rem 37rem;
+
+}
+
+h1 {
+    color: goldenrod;
+    text-align: center;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 4rem;
+    margin-top: 2px;
+}
